@@ -1,0 +1,79 @@
+body, li, ul, h1, h2, a{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+header{
+    background-color: rgb(212, 75, 75);
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+header h1{
+    border: 8px solid white;
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 36px;
+    color: white;
+}
+.banner{
+    position: relative;
+}
+.banner img{
+    width: 100%;
+}
+.banner .join{
+    background-color: #FEB614;
+    padding: 30px;
+    position: absolute;
+    top: 30%;
+    left: 0px;
+    
+}
+.join h2{
+    color: white;
+    font-size: 74px;
+    
+}
+nav{
+    padding: 20px;
+    background-color: #F4F4F4;
+    position: sticky;
+    top: 105px;
+    z-index: 1;
+}
+nav ul{
+    max-width: 1200px;
+    white-space: nowrap;
+    margin: 0 auto;
+}
+nav ul li{
+    width: 25%;
+    display: inline-block;
+    font-size: 24px;
+}
+nav li a{
+    text-decoration: none;
+    color: #4B4B4B;
+
+}
+nav li a:hover{
+    color: red;
+    text-decoration: underline;
+}
+div h2{
+    position: relative;
+    text-align: center;
+    color: rgb(121, 121, 4)
+}
+main{
+    max-width: 100%;
+    width: 1200px;
+    margin: 80px auto;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
